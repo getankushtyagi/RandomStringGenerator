@@ -1,0 +1,20 @@
+{
+    "name": "randomstring/random-string-generator",
+    "description": "this library genrate random string according to the length pass by the user",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Randomstring\\RandomStringGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ankush Tyagi",
+            "email": "getankushtyagi@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
